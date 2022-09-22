@@ -1,0 +1,3 @@
+[console_scripts]
+md2d = md2d:md2dexe
+md2vasp = md2d:md2v
