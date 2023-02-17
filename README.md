@@ -61,7 +61,7 @@ Besides, MD2D uses MDAnalysis to transform the outputs from other molecular dyna
 
 Output:
 -------
-Calculated diffusion coefficients, viscosities, and correction to diffusion coefficient are streamed in standard output. Besides, D-tau, mean squared displacement (MSD) and stress auto-correlation function (SACF) will be written into file as X_D_tau.dat (X is the element name), msd.dat and sacf_average.dat, and their plotsare saved as D_tau.pdf, msd.pdf and SACF.pdf. In each X_D_tau.dat, the first column is the time interval, the left three columns are the Ds for x, y and z directions. The columns in msd.dat corresponds to the MSDs for the elements in the order provided in XDATCAR. The three columns in sacf_average.dat are the MD step, bulk SACF and shear SACF.
+Calculated diffusion coefficients, viscosities, and correction to diffusion coefficient are streamed in standard output. Besides, D-tau, mean squared displacement (MSD) and stress auto-correlation function (SACF) will be written into file as X_D_tau.dat (X is the element name), msd.dat and sacf_average.dat, and their plots are saved as D_tau.pdf, msd.pdf and SACF.pdf. In each X_D_tau.dat, the first column is the time interval, the left three columns are the Ds for x, y and z directions. The columns in msd.dat corresponds to the MSDs for the elements in the order provided in XDATCAR. The three columns in sacf_average.dat are the MD step, bulk SACF and shear SACF.
 
 How-To Guides
 =============
